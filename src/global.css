@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+input, textearea{
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+}
+
+body{
+    background-color: #f0f0f5;
+}

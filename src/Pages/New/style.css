@@ -1,0 +1,121 @@
+.content a{
+    text-decoration: none;
+    color: #272727;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.content a:hover{
+    transition: 1s;
+    opacity: 0.8;
+}
+
+.content svg{
+    position: absolute;
+    top: 5.6vw;
+    left: 6px;
+}
+.new{
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px 20px;
+    display: flex;
+    border-radius: 10px;
+    background-color: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0,0,0,0.1);
+    margin:20px auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.new .info{
+    max-width: 500px;
+    width: 100%;
+}
+.new .info h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+.new .info ul{
+    list-style: none;
+    font-size: 18px;
+    line-height: 37px;
+    border: 1px solid #272727;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.new .form{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+}
+
+.new .form h2{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form form input{
+    margin-bottom: 16px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid #cecece;
+    cursor: initial;
+    font-family: Roboto;
+    width: 300px;
+}
+
+.form form input:focus{
+    border-color:#5d4a9e;
+}
+
+.form form label{
+    font-size: 18px;
+    display: block;
+    color: #5d4a9e;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form form textarea{
+    resize: vertical;
+    width: 450px;
+    display: block;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    line-height: 30px;
+    border: 1px solid #cecece;
+    cursor: initial;
+    font-family: Roboto;
+    margin-bottom: 20px;
+}
+
+.form form textarea:focus{
+    border-color: #5d4a9e;
+}
+
+.form form button{
+    cursor: pointer;
+    border: 1px solid #cecece;
+    padding: 10px 20px;
+    margin-top: 5px;
+    background-color:#5d4a9e;
+    color:white;
+    margin-left: 23vh;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.form form button:hover{
+    transition: 1s;
+    filter: brightness(0.8);
+}

@@ -1,0 +1,67 @@
+.home{
+    margin:15px 30px;
+    border-radius: 10px;
+    padding: 20px 30px;
+    background-color: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0,0,0,0.1);
+}
+
+.home h2{
+    color: rgb(75, 75, 75);
+    margin-bottom: 10px;
+    font-size: 30px;
+
+}
+
+.home p, .home li{
+    color: rgb(154, 142, 191);
+}
+
+.home .apresentation p{
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.home .apresentation button{
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    margin-left:8vw ;
+    background-color: transparent;
+    outline: none;
+    border:0;
+    background-color: #5d4a9e;
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+    transition: 1s;
+    margin-bottom: 10px;
+}
+
+.home .apresentation button:hover{
+    filter: brightness(0.7);
+    transition: 1s;
+}
+.home table{
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+.home table thead{
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+.home table td{
+    padding: 20px 20px;
+    border: 1px solid #5d4a9e;
+    max-width: 300px;
+}
+
+.home tbody tr:nth-child(odd){
+    background-color: rgba(0,0,0,0.1);
+}
+
+.home tbody tr:hover{
+    background-color: rgba(0,0,0,0.2);
+}

@@ -1,0 +1,41 @@
+.nav{
+    width: 100%;
+    min-width: 600px;
+    background: #5d4a9e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 85px;
+    border-bottom: 2px solid #cecece;
+}
+.nav h2{
+    color: white;
+    font-weight: 700;
+    margin-left:30px;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 1s;
+}
+.nav h2:hover{
+    opacity: 0.7;
+    transition: 1s;
+}
+
+.nav ul{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav li{
+    padding: 10px 14px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.nav li:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
